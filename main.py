@@ -1,6 +1,7 @@
 '''Black Jack'''
 
 import sys
+import time
 from deck import Deck 
 from player import Player
 from dealer import Dealer
@@ -109,6 +110,7 @@ class BlackJack:# Main class
                 self.dealer.countPoints()
                 self._displayStats()
                 print()
+                time.sleep(.7)
             input('Press Enter to cotinue...')
             self._displayStats(False)
             
