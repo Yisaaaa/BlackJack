@@ -30,7 +30,7 @@ class BlackJack:# Main class
             # Check if player has money left
             if self.player.money == 0:
                 print()
-                print("Oh boy, your'e broke")
+                print("Oh boy, youre broke")
                 print("Gambling isn't really cool")
                 print('Thanks for playing!')
                 sys.exit()
